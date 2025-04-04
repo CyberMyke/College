@@ -8,9 +8,9 @@ import MuiGrid from '@mui/material/Grid';
 import MuiStack from '@mui/material/Stack';
 import MuiTypography from '@mui/material/Typography';
 
-export type Props = types.HeroSection & types.StackbitFieldPath;
+export type Props = types.MykeSection & types.StackbitFieldPath;
 
-export const HeroSection: React.FC<Props> = (props) => {
+export const MykeSection: React.FC<Props> = (props) => {
     const { title, subtitle, text, image, actions = [], 'data-sb-field-path': fieldPath } = props;
     const hasTextContent = !!title || !!subtitle || !!text || actions.length > 0;
 

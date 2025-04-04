@@ -1,14 +1,14 @@
 import { Model } from '@stackbit/types';
 
-export const HeroSection: Model =  {
+export const MykeSection: Model =  {
     type: 'object',
-    name: 'HeroSection',
-    label: 'Hero',
+    name: 'MykeSection',
+    label: 'Myke',
     labelField: 'title',
     thumbnail: 'https://assets.stackbit.com/components/models/thumbnails/default.png',
     groups: ['sectionComponent'],
     fields: [
-        { type: 'string', name: 'title', label: 'Title', default: 'This Is A Big Hero Headline' },
+        { type: 'string', name: 'title', label: 'Title', default: 'This Is A Big Myke Headline' },
         { type: 'string', name: 'subtitle', label: 'Subtitle', default: 'The section subtitle' },
         {
             type: 'markdown',
@@ -32,7 +32,7 @@ export const HeroSection: Model =  {
             name: 'image',
             label: 'Image',
             models: ['Image'],
-            default: { type: 'Image', url: 'https://assets.stackbit.com/components/images/default/hero.png', altText: 'Hero section image' }
+            default: { type: 'Image', url: 'https://assets.stackbit.com/components/images/default/Myke.png', altText: 'Myke section image' }
         }
     ]
 };

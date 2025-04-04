@@ -1,7 +1,7 @@
 export type Document = Config | Page;
 export type DocumentTypeNames = 'Config' | 'Page';
 
-export type Section = CardsSection | HeroSection;
+export type Section = CardsSection | MykeSection;
 
 /** Document types */
 export type Config = {
@@ -59,8 +59,8 @@ export type Header = {
     navLinks?: Link[];
 };
 
-export type HeroSection = {
-    type: 'HeroSection';
+export type MykeSection = {
+    type: 'MykeSection';
     title?: string;
     subtitle?: string;
     text?: string;

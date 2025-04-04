@@ -17,14 +17,14 @@ export const Page: Model = {
             items: { type: 'model', models: [], groups: ['sectionComponent'] },
             default: [
                 {
-                    type: 'HeroSection',
-                    title: 'This Is A Big Hero Headline',
+                    type: 'MykeSection',
+                    title: 'This Is A Big Myke Headline',
                     text: 'Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl. Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat itae interdum. Ut nec massa eget lorem blandit condimentum et at risus.\n',
                     actions: [
                         { type: 'Button', label: 'Get Started', url: '/', size: 'large', variant: 'contained' },
                         { type: 'Button', label: 'Learn more', url: '/', size: 'large', variant: 'outlined' }
                     ],
-                    image: { type: 'Image', url: 'https://assets.stackbit.com/components/images/default/hero.png', altText: 'Hero section image' }
+                    image: { type: 'Image', url: 'https://assets.stackbit.com/components/images/default/Myke.png', altText: 'Myke section image' }
                 }
             ]
         }

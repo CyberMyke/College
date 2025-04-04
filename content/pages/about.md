@@ -2,7 +2,7 @@
 title: About
 type: Page
 sections:
-  - type: HeroSection
+  - type: MykeSection
     title: Example for H2 headline
     subtitle: This is the subtitle
     text: >

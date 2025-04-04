@@ -6,7 +6,7 @@ sections:
     title: H
     subtitle: 'Featuring TypeScript, Next.js, MUI v5 & Emotion'
     text: >
-      This is the HeroSection component. You can visually edit this component &
+      This is the MykeSection component. You can visually edit this component &
       add more sections while developing locally. [Learn
       more.](https://docs.netlify.com/visual-editor/local-development/)
     actions:
@@ -24,8 +24,8 @@ sections:
         color: primary
     image:
       type: Image
-      url: /images/hero.svg
-      altText: Hero section image
+      url: /images/Myke.svg
+      altText: Myke section image
   - type: CardsSection
     title: Cards Section Component
     subtitle: Section subtitle here
