@@ -2,8 +2,8 @@
 title: Home
 type: Page
 sections:
-  - type: HeroSection
-    title: Hero Title
+  - type: M
+    title: H
     subtitle: 'Featuring TypeScript, Next.js, MUI v5 & Emotion'
     text: >
       This is the HeroSection component. You can visually edit this component &
