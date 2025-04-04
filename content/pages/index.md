@@ -2,7 +2,7 @@
 title: Home
 type: Page
 sections:
-  - type: HeroSection
+  - type: Myke Hirst
     title: Hero Title
     subtitle: 'Featuring TypeScript, Next.js, MUI v5 & Emotion'
     text: >
